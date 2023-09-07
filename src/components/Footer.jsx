@@ -4,10 +4,6 @@ const Footer = () => {
   return (
     <footer id="footer" role="contentinfo">
       <div className="footer__inner">
-        <div className="footer__text">
-          <span>webstoryboy</span>
-          <span>© webs</span>
-        </div>
         <div className="footer__info">
           <div className="left">
             <div className="title">
@@ -28,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__right">
-          © 2023 webstoryboy
+          © 2023 조영호
           <br />이 사이트는 리액트를 이용하여 제작하였습니다.
         </div>
       </div>

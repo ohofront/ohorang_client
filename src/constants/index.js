@@ -9,92 +9,71 @@ import port08 from "../assets/img/port08.jpg";
 import port09 from "../assets/img/port09.jpg";
 import port10 from "../assets/img/port10.jpg";
 
-export const headerNav = [
-  {
-    title: "intro",
-    url: "#intro",
-  },
-  {
-    title: "skill",
-    url: "#skill",
-  },
-  {
-    title: "site",
-    url: "#site",
-  },
-  {
-    title: "portfolio",
-    url: "#port",
-  },
-  {
-    title: "contact",
-    url: "#contact",
-  },
-];
+export const headerNav = ["intro", "skill", "site", "portfolio", "contact"];
 
 export const introText = {
-  title: "port developer",
+  title: "developer",
   desc: ["talent is", "found at the end of the", "effort"],
 };
 
 export const skillText = [
   {
-    title: "꿈을 설계하고 디자인하다.",
-    desc: "나는 공간을 만드는 것을 좋아한다. 어려을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다. 단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다. 나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다.",
+    title: "실수를 두려워하지 않습니다.",
+    desc: "개발자의 경우 코드를 구성하면서 실수를 자주 만나는 편이기 때문에 과거의 실수를 생각하기 보다는 그 실수를 더 많은 사람들과 공유하고 피드백을 받으며 건강한 개발자가 되어야 한다고 생각합니다. 그중 하나의 방법으로 개발자가 코드를 구성하는 것은 매일 쌓이는 일기와 같아서 코드를 구성하며 자신이 어떻게 발전하고 있는지 꾸준히 개발일지에 기록하면서 되돌아보고 있습니다.",
   },
   {
-    title: "열심히 할수록 기회는 따른다.",
-    desc: "운이 좋은 사람은 없다. 단지 운을 만들 뿐이다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두 하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.",
+    title: "꾸준히 할수록 기회는 있다고 생각합니다.",
+    desc: "운이 좋은 사람은 없습니다. 단지 운을 만들 뿐이다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두 하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.",
   },
   {
-    title: "나에게 정직하다.",
-    desc: "정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.",
+    title: "항상 사용자 입장에서 생각합니다.",
+    desc: "프로젝트를 진행했을 때 계속해서 사용자 입장에서 생각하며 사용자가 무엇을 필요한지 끊임없이 고민하거나 주변 사람들한테 물어보기도 했습니다. 하지만 코드를 구현하는데 에러가 많이 발생해 문제를 해결하기 위해 매일 교육이 끝나고 저녁에 시간을 투자해 팀원끼리 학습한 내용을 질문하고 도와주는 스터디를 진행했습니다.",
   },
 ];
 
 export const siteText = [
   {
-    text: ["make", "site compliant with", "webstandard"],
-    title: "비트를 이용한 사이트 제작",
+    text: ["make", "site compliant with", "react.js"],
+    title: "리액트를 이용한 사이트 제작",
     code: "https://github.com/webstoryboy/port2023-vite",
     view: "https://port2023-vite.netlify.app",
     info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, Vite",
+      "홈페이지 제작",
+      "개발 기간 : 4개월",
+      "기술 스택 : HTML5/CSS3, React, React-redux, styled-component",
     ],
   },
   {
-    text: ["make", "site compliant with", "react.js"],
-    title: "리액트를 이용한 사이트 제작",
+    text: ["make", "site compliant with", "javascript"],
+    title: "자바스크립트를 이용한 사이트 제작",
     code: "https://github.com/webstoryboy/port2023-react",
     view: "https://port2023-react.netlify.app",
     info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, react",
+      "홈페이지 제작",
+      "개발 기간 : 2개월",
+      "기술 스택 : HTML5/CSS3, javascript",
     ],
   },
   {
-    text: ["make", "site compliant with", "vue.js"],
-    title: "뷰를 이용한 사이트 제작",
+    text: ["make", "site compliant with", "tyepescript & react.js"],
+    title: "타입스크립트와 리액트를 이용한 사이트 제작",
     code: "https://github.com/webstoryboy/port2023-vue",
     view: "https://port2023-vue.netlify.app",
     info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, Scss Variable, vue",
+      "홈페이지 제작",
+      "개발 기간 : 3개월",
+      "기술 스택 : HTML5/CSS3, styled-components, typescript, react.js",
     ],
   },
   {
-    text: ["make", "site compliant with", "next.js"],
-    title: "넥스트를 이용한 사이트 제작",
+    text: ["make", "site compliant with", "tyepescript & react.js"],
+    title: "타입스크립트와 리액트를 이용한 사이트 제작",
     code: "https://github.com/webstoryboy/port2023-next",
     view: "https://port2023-next.netlify.app",
     info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, Scss Variable, next.js",
+      "홈페이지 제작",
+      "개발 기간 : 6개월",
+      "기술 스택 : HTML5/CSS3, MUI, typescript, react.js",
     ],
   },
 ];
@@ -102,8 +81,8 @@ export const siteText = [
 export const portText = [
   {
     num: "01",
-    title: "어워드에도 올라간 포트폴리오",
-    desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다. 가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다. 이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.",
+    title: "GME(글로벌머니익스프레스) 홈페이지 ",
+    desc: "기존에는 홈페이지 수정할 경우 해외에 있는 팀원에게 전달해서 작업을 진행해야 했기 때문에 많은 시간이 소요되었습니다. 이점을 단축시키기 위해 제가 유연하게 사용할 수 있는 React 프레임워크를 활용해 개발했고 기존 Legacy Project와 최대한 비슷하게 UI를 제작했습니다. 또한 재사용성이 쉽도록 컴포넌트를 만들며 개발했습니다. ",
     img: port01,
     code: "https://github.com/kimsangjunv1/-React-Portfolio",
     view: "https://portfoliosj-react.netlify.app",
@@ -111,8 +90,8 @@ export const portText = [
   },
   {
     num: "02",
-    title: "빛나는 밤에 포트폴리오",
-    desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
+    title: "B2B 송금시스템",
+    desc: "기존 Legacy Project와 비슷하게 UI를 개발했지만, css를 활용해 부드러운 Animation과 js를 활용해 DropMeny, ul li 태그를 활용한 리스트를 구성했습니다. 그리고 기존에는 없었던 비밀번호를 localStorage에 저장해서 사용자가 편리하게 시스템을 사용할 수 있도록 제작했습니다.",
     img: port02,
     code: "https://github.com/seolhee313/PORTFOLIO-REACT",
     view: "https://portfolio-313.web.app/",
@@ -120,8 +99,8 @@ export const portText = [
   },
   {
     num: "03",
-    title: "열정이 넘치는 포트폴리오",
-    desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
+    title: "렛잇고 앱 사용자 화면 개발",
+    desc: "배달 플랫폼의 높은 수수료와 버려지는 음식물 쓰레기 증가로 인해 만들게 되었습니다. 사장님이 직접 게시글을 올릴 수 있는 기능을 활용해 개성있는 할인 마케팅 서비스를 제공하는 것을 목표로 했습니다. 그리고 소비자는 위치에 따라서 원하는 시간에 맞춰 음식을 포장할 수 있도록 기능을 구현했습니다.",
     img: port03,
     code: "https://github.com/seolhee313/PORTFOLIO-REACT",
     view: "https://portfolio-313.web.app/",
@@ -129,8 +108,8 @@ export const portText = [
   },
   {
     num: "04",
-    title: "모던한 포트폴리오",
-    desc: "블랙 컨셉과 애니메이션이 돋보이는 포트폴리오 사이트입니다. GSAP를 통한 애니메이션과 NEXT.js를 통해 제작된 포트폴리오입니다. pin 애니메이션을 통한 포폴 작업물의 표현 능력이 돋보이는 사이트입니다.",
+    title: "ETRI 문화유산 애셋관리 시스템",
+    desc: "박물관의 디지털 콘테츠에 대한 수요가 급증했고, 문화유산 원본 가치를 잘 담아내면서도 여러방식으로 활용할 수있도록 제작하였습니다. 궁극적으로는 박물관과 첨단 기술 분야간 새로운 데이터 활용과 관리를 목표로 하며 제작했습니다. 큐레이터가 직접 소장품, 애셋을 선택후 관람객에게 선보일 전시를 생성할 수 있도록 만들었습니다.",
     img: port04,
     code: "https://github.com/dlgnsrb227/portfolio-next",
     view: "https://hoongportfolio-next.netlify.app/",
@@ -138,68 +117,23 @@ export const portText = [
   },
   {
     num: "05",
-    title: "가로모드의 정석 포트폴리오",
-    desc: "이 포트폴리오는 가로모드를 통해 눈에 띄는 애니메이션 효과를 가진 멋진 작품들이 펼쳐집니다. 세션 간의 부드러운 전환과 흥미로운 움직임이 사용자들에게 색다른 경험을 선사합니다. 사이트에는 탁월한 디자인과 창의적인 애니메이션들이 어우러져, 사용자들에게 인상적인 시각적인 효과를 줍니다. 애니메이션은 적절히 사용되어 사이트를 더욱 생동감 있게 만들어주는 포트폴리오입니다.",
+    title: "반얀트리 카시아 속초 호텔 스마트 & 비대면 통합 운영 시스템",
+    desc: "강력했던 팬데믹 이후 세계의 모든 서비스 업계는 비대면 기능이 중요한 화두가 되었고, 이에 경험과 공유를 중시하는 어린세대 부터 전세대를 아우르는 새로운 호텔 서비슬르 개발하고자 하는 목표가 있었습니다. 단순한 ICT 서비스 도입이 아닌 최고의 고객경험과 더불어 경영 효율을 제공할 수 있는 통합 운영시스템을 설계했고 구현했습니다.",
     img: port05,
     code: "/",
     view: "https://junseungpark.github.io/portfolio/index3.html",
     name: "박준* 포트폴리오",
   },
-  {
-    num: "06",
-    title: "화려함의 정석 포트폴리오",
-    desc: "화려하고 세련된 디자인과 다채로운 색상이 사용된 포트폴리오는 사용자를 홀릴 듯한 시각적인 매력을 지니고 있습니다. 포트폴리오 내의 각 작품들은 디테일한 디자인과 탁월한 시각적 표현력을 갖추고 있어, 주인공의 뛰어난 예술적 감각을 느낄 수 있습니다. 화려한 애니메이션 효과와 부드러운 전환은 사이트를 더욱 생동감 있게 만들어주며, 사용자들에게 색다른 경험을 선사합니다.",
-    img: port06,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html",
-    name: "포트폴리오",
-  },
-  {
-    num: "07",
-    title: "패럴랙스 정석 포트폴리오",
-    desc: "마치 예술작품을 감상하는 듯한 환상적인 경험을 선사하는 포트폴리오입니다. 패럴랙스 스크롤링을 활용하여 구성된 사이트는 사용자들에게 독특하고 멋진 시각적 효과를 제공합니다. 배경과 움직이는 요소들이 조화롭게 어우러져, 사이트 전반에 걸쳐 깊이와 입체감을 느낄 수 있습니다. 스크롤에 따라 움직이는 요소들은 마치 세계를 탐험하는 듯한 느낌을 주며, 사용자들을 끌어들이는 매력적인 요소로 작용합니다.",
-    img: port07,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
-    name: "포트폴리오",
-  },
-  {
-    num: "08",
-    title: "트랜지션 포트폴리오",
-    desc: "화면 전환과 요소들의 흐름이 순조롭고 매끄러운 작품들로 가득한 포트폴리오 사이트입니다. 페이지 간의 트랜지션은 마치 이야기를 풀어내는 듯한 흥미진진한 경험을 선사합니다. 트랜지션 효과의 적절한 활용은 작품들을 보다 동적이고 생동감 있게 만들어줍니다. 각 페이지의 이동이 자연스럽고 사용자들이 원활하게 사이트를 탐색할 수 있도록 배려된 구성은 개발자의 디자인 능력을 잘 보여주는 특징입니다.",
-    img: port08,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/HyunroKim/index.html",
-    name: "포트폴리오",
-  },
-  {
-    num: "09",
-    title: "스크롤의 정석 포트폴리오",
-    desc: "스크롤링을 활용하여 훌륭한 사용자 경험을 선사하는 포트폴리오 사이트입니다. 스크롤을 내리면서 작품들이 순차적으로 나타나고 효과적으로 전환되는 것은 마치 예술적인 이야기를 읽어나가는 듯한 느낌을 주며 사용자를 매료시킵니다. 스크롤의 움직임을 통해 작품들이 서서히 드러나고, 각 페이지 간의 전환은 자연스럽고 부드럽습니다. 이러한 트랜지션과 애니메이션들이 작품들의 내용과 테마를 더욱 강조해줍니다.",
-    img: port09,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/ChoJaeHyung/index.html",
-    name: "포트폴리오",
-  },
-  {
-    num: "10",
-    title: "모던함의 정석 포트폴리오",
-    desc: "현대적이고 세련된 디자인으로 가득한 포트폴리오 사이트입니다. 모던한 느낌과 세심한 디테일이 조화를 이루며, 사용자에게 신선하고 품격 있는 경험을 제공합니다. 사이트의 디자인은 깔끔하고 단정하면서도 특유의 감성과 풍부한 표현력이 느껴집니다. 간결한 레이아웃과 모던한 색상 선택은 주인공의 디자인 감각을 잘 보여주는 특징입니다.",
-    img: port10,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html",
-    name: "포트폴리오",
-  },
 ];
 
 export const contactText = [
   {
-    link: "https://open.kakao.com/o/gM7YLzwf",
-    title: "KAKAO : webstupids",
+    link: "tel:01051867482",
+    title: "전화걸기",
   },
   {
-    link: "mailto:webstoryboy@naver.com",
-    title: "mail : webstoryboy@naver.com",
+    link: "mailto:youngho7482@gmail.com",
+    title: "mail : youngho7482@gmail.com",
   },
 ];
 

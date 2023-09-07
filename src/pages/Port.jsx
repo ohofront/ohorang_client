@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import { portText } from "../constants";
 import { gsap } from "gsap";
@@ -34,10 +34,10 @@ const Port = () => {
   }, []);
 
   return (
-    <section id="port" ref={horizontalRef}>
+    <section id="portfolio" ref={horizontalRef}>
       <div className="port__inner">
         <div className="port__title">
-          portfolio <em>포폴 작업물</em>
+          portfolio <em>포트폴리오</em>
         </div>
         <div className="port__wrap">
           {portText.map((port, key) => (
@@ -57,14 +57,14 @@ const Port = () => {
               </a>
               <h3 className="title">{port.title}</h3>
               <p className="desc">{port.desc}</p>
-              <a
+              {/* <a
                 href={port.view}
                 target="_blank"
                 className="site"
                 rel="noreferrer"
               >
                 사이트 보기
-              </a>
+              </a> */}
             </article>
           ))}
         </div>

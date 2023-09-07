@@ -21,7 +21,7 @@ const Home = () => {
         <Port />
         <Contact />
       </Main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
