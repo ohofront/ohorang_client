@@ -71,7 +71,7 @@ const Header = () => {
             ))}
           </ul>
         </nav> */}
-        <nav className="header__nav">
+        <nav className={`header__nav ${show ? "show" : ""}`}>
           <ul className="menu">
             {headerNav.map((id) => (
               <li key={`menu-item-${id}`} className="menu-item">
