@@ -48,7 +48,7 @@ const Port = () => {
             >
               <span className="num">{port.num}.</span>
               <a
-                href={port.code}
+                // href={port.code}
                 target="_blank"
                 className="img"
                 rel="noreferrer"
