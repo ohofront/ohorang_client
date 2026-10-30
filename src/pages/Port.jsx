@@ -47,14 +47,9 @@ const Port = () => {
               ref={(el) => (sectionsRef.current[key] = el)}
             >
               <span className="num">{port.num}.</span>
-              <a
-                // href={port.code}
-                target="_blank"
-                className="img"
-                rel="noreferrer"
-              >
+              <div className="img">
                 <img src={port.img} alt={port.name} />
-              </a>
+              </div>
               <h3 className="title">{port.title}</h3>
               <p className="desc">{port.desc}</p>
               {/* <a
